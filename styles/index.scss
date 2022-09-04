@@ -27,8 +27,8 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-	background-color: #ffffff;
-	border: 2px solid #000000;
+	background-color: $color-secondary;
+	border: 1px solid white;
 	border-radius: 25px;
 }
 
@@ -52,6 +52,15 @@ button,
 		justify-content: center;
 		text-align: center;
 	}
+	@media screen and (max-width: $extra-small) {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+}
+
+.nav {
 	@media screen and (max-width: $extra-small) {
 		flex-direction: column;
 		align-items: center;
@@ -90,6 +99,7 @@ h1 {
 
 .navbar-head {
 	@media screen and (max-width: $extra-small) {
+		border-top: 1px solid #ffffff10;
 		font-size: small;
 		flex-direction: row;
 		align-items: center;
@@ -103,7 +113,7 @@ h1 {
 .nav-link:visited {
 	text-decoration: none;
 	color: $color-secondary;
-	transition: all 1s;
+	transition: color 1s;
 }
 
 .nav-link:hover {
@@ -118,34 +128,6 @@ h1 {
 	width: 100%;
 }
 
-@keyframes pulse-arrow {
-	0% {
-		opacity: 1;
-	}
-	100% {
-		opacity: 0;
-	}
-}
-
-.whatsapp-ico {
-	border: 1px solid white;
-	border-radius: 50%;
-	padding: 0.5rem;
-	margin: 0.5rem;
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	animation: pulse-whatsapp 2s infinite alternate-reverse;
-}
-
-@keyframes pulse-whatsapp {
-	0% {
-	}
-
-	100% {
-		border-color: #00bb2d;
-	}
-}
 
 .description {
 	display: flex;
@@ -153,15 +135,123 @@ h1 {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	padding: 2rem;
-  background-color: $color-secondary;
-  color: white;
+	padding: 3rem;
+	background-color: $color-secondary;
+	color: white;
 }
 
-.description h1 {
-  font-family: $font-primary;
+.description h2 {
+	font-family: $font-primary;
+	font-size: 35px;
+	margin: 1rem;
 }
 
 .description p {
-  font-family: $font-secondary;
+	font-family: $font-secondary;
+	font-size: larger;
+}
+
+.quote {
+	font-style: italic;
+	font-family: $font-secondary;
+	font-size: larger;
+}
+
+.founder-name {
+	margin: 1rem;
+	font-size: large;
+}
+
+.services {
+	background-color: $color-primary;
+	color: $color-secondary;
+	text-align: center;
+	padding: 3rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	@media screen and (max-width: $medium) {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		row-gap: 2rem;
+	}
+	
+}
+
+.services h2 {
+	margin: 1rem;
+}
+
+.card {
+	background-color: $color-secondary;
+	color: white;
+	border: $color-primary;
+	transition: border 1s;
+}
+
+.card:hover {
+	border: 3px solid white;
+}
+
+.card h3 {
+	font-size: 25px;
+	font-family: $font-primary;
+}
+
+.card p {
+	font-weight: 200;
+	font-family: $font-secondary;
+}
+
+.opinions-container {
+	background-color: $color-secondary;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 3rem;
+}
+
+.opinions-title {
+	font-family: $font-primary;
+	font-size: 25px;
+}
+
+.opinions-p {
+	font-family: $font-secondary;
+}
+
+.opinion {
+	background-color: $color-primary;
+	padding: 1rem;
+	border-radius: 20px;
+	margin: 1rem;
+	max-width: 400px;
+}
+
+.opinion h3 {
+	font-family: $font-primary;
+	font-weight: 700;
+}
+
+.opinion p {
+	font-family: $font-secondary;
+}
+
+
+
+
+.whatsapp-ico {
+	padding: 0.5rem;
+	margin: 0.5rem;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	@media screen and (max-width: $extra-small) {
+		width: 50px;
+	}
 }

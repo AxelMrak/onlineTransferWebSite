@@ -23,8 +23,8 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #ffffff;
-  border: 2px solid #000000;
+  background-color: #ff9500;
+  border: 1px solid white;
   border-radius: 25px;
 }
 
@@ -40,7 +40,7 @@ button,
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #472d0f;
+  background-color: #28292B;
   padding: 0.5rem;
 }
 @media screen and (max-width: 800px) {
@@ -53,6 +53,15 @@ button,
 }
 @media screen and (max-width: 300px) {
   .head-page {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -101,6 +110,7 @@ h1 {
 }
 @media screen and (max-width: 300px) {
   .navbar-head {
+    border-top: 1px solid rgba(255, 255, 255, 0.062745098);
     font-size: small;
     flex-direction: row;
     align-items: center;
@@ -114,7 +124,7 @@ h1 {
 .nav-link:visited {
   text-decoration: none;
   color: #ff9500;
-  transition: all 1s;
+  transition: color 1s;
 }
 
 .nav-link:hover {
@@ -129,60 +139,129 @@ h1 {
   width: 100%;
 }
 
-@-webkit-keyframes pulse-arrow {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes pulse-arrow {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-.whatsapp-ico {
-  border: 1px solid white;
-  border-radius: 50%;
-  padding: 0.5rem;
-  margin: 0.5rem;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  animation: pulse-whatsapp 2s infinite alternate-reverse;
-}
-
-@-webkit-keyframes pulse-whatsapp {
-  100% {
-    border-color: #00bb2d;
-  }
-}
-
-@keyframes pulse-whatsapp {
-  100% {
-    border-color: #00bb2d;
-  }
-}
 .description {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 2rem;
+  padding: 3rem;
   background-color: #ff9500;
   color: white;
 }
 
-.description h1 {
+.description h2 {
   font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  margin: 1rem;
 }
 
 .description p {
   font-family: "Source Sans Pro", sans-serif;
+  font-size: larger;
+}
+
+.quote {
+  font-style: italic;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: larger;
+}
+
+.founder-name {
+  margin: 1rem;
+  font-size: large;
+}
+
+.services {
+  background-color: #28292B;
+  color: #ff9500;
+  text-align: center;
+  padding: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+@media screen and (max-width: 800px) {
+  .services {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 2rem;
+  }
+}
+
+.services h2 {
+  margin: 1rem;
+}
+
+.card {
+  background-color: #ff9500;
+  color: white;
+  border: #28292B;
+  transition: border 1s;
+}
+
+.card:hover {
+  border: 3px solid white;
+}
+
+.card h3 {
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.card p {
+  font-weight: 200;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.opinions-container {
+  background-color: #ff9500;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem;
+}
+
+.opinions-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+}
+
+.opinions-p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.opinion {
+  background-color: #28292B;
+  padding: 1rem;
+  border-radius: 20px;
+  margin: 1rem;
+  max-width: 400px;
+}
+
+.opinion h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+.opinion p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.whatsapp-ico {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+@media screen and (max-width: 300px) {
+  .whatsapp-ico {
+    width: 50px;
+  }
 }/*# sourceMappingURL=index.css.map */

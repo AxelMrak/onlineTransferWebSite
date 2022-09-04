@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -19,7 +19,7 @@
 		<title>Online Transfer Mendoza</title>
 	</head>
 	<body>
-		<header class="head-page">
+		<header class="head-page" id="top-page">
 			<div class="logo-head">
 				<img
 					src="./img/Logo Online Transfer.svg"
@@ -54,10 +54,6 @@
 					media="(max-width: 350px)"
 					srcset="./img/bienvenida-extraS.jpg"
 				/>
-				<source
-					media="(max-width: 800px)"
-					srcset="./img/bienvenida-pequeña.jpg"
-				/>
 
 				<img
 					class="img-welcome"
@@ -68,9 +64,91 @@
 		</main>
 		<section class="description">
 			<h2>Bienvenidos a Online Transfers!</h2>
-			<p>Somos una empresa de transporte de pasajeros enfocados en dar lo mejor de nosotros para la total satisfaccion y comodidad de nuestros clientes.</p>
+			<p>
+				Somos una empresa de transporte de pasajeros enfocados en dar lo mejor
+				de nosotros para la total satisfaccion y comodidad de nuestros clientes.
+			</p>
+			<q class="quote"
+				>Nuestra empresa fue fundada en el año 2010. Con el fin de poder atraer
+				y concebir un buen servicio de viajes a traves de plataformas digitales.
+				Disfrutando toda esta accesibilidad para el gran Mendoza y conocer sus
+				mejores atracciones turisticas y paisajes conocidos mundialmente.</q
+			>
+			<p class="founder-name">
+				<strong>Javier Argañaraz (Gerente y Fundador)</strong>
+			</p>
 		</section>
-
+		<section class="services">
+			<h2>Nuestros servicios</h2>
+			<div class="card" style="width: 18rem">
+				<img
+					src="./img/mendoza-aconcagua.jpg"
+					class="card-img-top"
+					alt="People in mountains in Aconcagua Park, Mendoza."
+				/>
+				<div class="card-body">
+					<h3 class="card-title">Servicio de viajes turisticos</h3>
+					<p class="card-text">
+						Te llevamos a conocer los hermosos paisajes de nuestra querida provincia.
+					</p>
+					<button type="button" class="btn btn-outline-light">Reserve su viaje</button>
+				</div>
+			</div>
+			<div class="card" style="width: 18rem">
+				<img
+					src="./img/hombre-aeropuerto.jpg"
+					class="card-img-top"
+					alt="Man in airport"
+				/>
+				<div class="card-body">
+					<h3 class="card-title">Transporte aeropuerto</h3>
+					<p class="card-text">
+						Te llevamos desde el aeropuerto para donde lo desees.
+					</p>
+					<button type="button" class="btn btn-outline-light">Reserve su viaje</button>
+				</div>
+			</div>
+		</section>
+		<section class="opinions-container">
+			<h2 class="opinions-title">Opiniones de nuestros clientes</h2>
+			<p class="opinions-p">En Online Transfers nos tomamos muy en serio nuestro trabajo y queremos brindarle el mejor servicio.</p>
+			<div class="opinions-people">
+				<div class="opinion">
+					<h3>Arman Aguirre</h3>
+					<p>Agradezco la amabilidad y servicio de Online Transfer Mendoza. Por lo temprano que me trasladaba al aeropuerto hoy 1/1 el miedo era no conseguir taxi o traslado, ésta empresa permite reservar y gestionar todo x WhatsApp (paciencia, tardan un poco en responder, pero responden). En mí caso reserve con 48hs de anticipación, corroboré 24hs, tenían todos mis datos listos, me dijeron que coche, conductor, matrícula me pasaría a buscar y podes pagar con efectivo, débito, crédito o MP. Excelente servicio y el conductor súper responsable y amable. Los recomiendo.</p>
+					<div class="stars">
+						<img src="./img/estrella.png" alt="start of points" width="25px"/>
+						<img src="./img/estrella.png" alt="start of points" width="25px"/>
+						<img src="./img/estrella.png" alt="start of points" width="25px"/>
+						<img src="./img/estrella.png" alt="start of points" width="25px"/>
+						<img src="./img/estrella.png" alt="start of points" width="25px"/>
+					</div>
+				</div>
+				<div class="opinion">
+					<h3>Analia Di Leo</h3>
+					<p>Excelente atención y muy buena predisposición! Lo recomiendo.</p>
+					<div class="stars">
+						<img src="./img/estrella.png" alt="start of points" width="25px"/>
+						<img src="./img/estrella.png" alt="start of points" width="25px"/>
+						<img src="./img/estrella.png" alt="start of points" width="25px"/>
+						<img src="./img/estrella.png" alt="start of points" width="25px"/>
+						<img src="./img/estrella.png" alt="start of points" width="25px"/>
+					</div>
+				</div>
+				<div class="opinion">
+					<h3>Maria Fernanda Rubio</h3>
+					<p>(No ha realizado comentarios)</p>
+					<div class="stars">
+						<img src="./img/estrella.png" alt="start of points" width="25px"/>
+						<img src="./img/estrella.png" alt="start of points" width="25px"/>
+						<img src="./img/estrella.png" alt="start of points" width="25px"/>
+						<img src="./img/estrella.png" alt="start of points" width="25px"/>
+						<img src="./img/estrella.png" alt="start of points" width="25px"/>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Whatsapp flotante -->
 		<a
 			href="http://wa.me/542615085437"
 			class="link-wp"
