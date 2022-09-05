@@ -308,17 +308,6 @@ h1 {
 	color: white;
 }
 
-.foot {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-around;
-	border-top: 1px solid white;
-	padding: 1rem;
-	color: white;
-	background-color: $color-primary;
-}
-
 .maps {
 	padding: 2rem;
 	color: white;
@@ -331,7 +320,27 @@ h1 {
 	row-gap: 1rem;
 }
 
+.map-frame {
+	width: 80vw;
+}
 
+.foot {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	border-top: 1px solid white;
+	padding: 1rem;
+	color: white;
+	background-color: $color-primary;
+	@media screen and (max-width: $medium) {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+}
 
 .whatsapp-ico {
 	padding: 0.5rem;
