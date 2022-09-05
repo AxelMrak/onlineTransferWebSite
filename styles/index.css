@@ -232,7 +232,7 @@ h1 {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-.card button {
+.card a {
   color: black;
 }
 
@@ -321,6 +321,29 @@ h1 {
 
 .contact-option a:hover {
   color: white;
+}
+
+.foot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid white;
+  padding: 1rem;
+  color: white;
+  background-color: #28292B;
+}
+
+.maps {
+  padding: 2rem;
+  color: white;
+  background-color: #28292B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  row-gap: 1rem;
 }
 
 .whatsapp-ico {
