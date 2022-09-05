@@ -9,6 +9,7 @@
 
 html {
 	line-height: 1.15;
+	text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 }
 
@@ -39,7 +40,15 @@ button,
 	-webkit-appearance: button;
 }
 
+body {
+	cursor: url("../cursor/Car\ \(716\).cur"), pointer;
+}
+
 .head-page {
+	position: fixed;
+	width: 100vw;
+	top: 0%;
+	z-index: 1;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -47,12 +56,16 @@ button,
 	background-color: $color-primary;
 	padding: 0.5rem;
 	@media screen and (max-width: $medium) {
+		position: initial;
+		width: initial;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		text-align: center;
 	}
 	@media screen and (max-width: $extra-small) {
+		position: initial;
+		width: initial;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
@@ -128,7 +141,6 @@ h1 {
 	width: 100%;
 }
 
-
 .description {
 	display: flex;
 	flex-direction: column;
@@ -137,7 +149,7 @@ h1 {
 	text-align: center;
 	padding: 3rem;
 	background-color: $color-secondary;
-	color: white;
+	color: black;
 }
 
 .description h2 {
@@ -169,7 +181,7 @@ h1 {
 	padding: 3rem;
 	display: flex;
 	flex-direction: row;
-	align-items: center;
+	align-items: stretch;
 	justify-content: space-around;
 	@media screen and (max-width: $medium) {
 		flex-direction: column;
@@ -177,16 +189,17 @@ h1 {
 		justify-content: center;
 		row-gap: 2rem;
 	}
-	
 }
 
 .services h2 {
 	margin: 1rem;
+	align-self: center;
 }
 
 .card {
+	width: 18rem;
 	background-color: $color-secondary;
-	color: white;
+	color: black;
 	border: $color-primary;
 	transition: border 1s;
 }
@@ -205,6 +218,10 @@ h1 {
 	font-family: $font-secondary;
 }
 
+.card button {
+	color: black;
+}
+
 .opinions-container {
 	background-color: $color-secondary;
 	color: white;
@@ -217,11 +234,13 @@ h1 {
 }
 
 .opinions-title {
+	color: black;
 	font-family: $font-primary;
 	font-size: 25px;
 }
 
 .opinions-p {
+	color: black;
 	font-family: $font-secondary;
 }
 
@@ -242,8 +261,51 @@ h1 {
 	font-family: $font-secondary;
 }
 
+.opinions-people {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	@media screen and (max-width: $medium) {
+		display: flex;
+		flex-direction: column;
+		align-items: stretch;
+	}
+}
 
+.contact {
+	background-color: $color-primary;
+	color: white;
+	padding: 3rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: stretch;
+	row-gap: 2rem;
+	text-align: center;
+}
 
+.contact-option {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 1rem;
+	padding: 1rem;
+	background-color: $color-secondary;
+	color: black;
+	border-radius: 20px;
+}
+
+.contact-option a:link,
+.contact-option a:visited,
+.contact-option a:active {
+	text-decoration: none;
+	color: black;
+	transition: 1s all;
+}
+
+.contact-option a:hover {
+	color: white;
+}
 
 .whatsapp-ico {
 	padding: 0.5rem;

@@ -4,88 +4,67 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link
-			rel="shortcut icon"
-			href="./ico/onlineTransfersFavicon.png"
-			type="image/x-icon"
-		/>
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-			crossorigin="anonymous"
-		/>
+		<meta name="author" content="Online Transfers - Axel Sarmiento" />
+    	<meta name="description" content="Somos una empresa dedicada al transporte privado de pasajeros dentro de Mendoza. Entra y conocé más de nuestra empresa de transporte particular."/>
+		<link rel="shortcut icon" href="./ico/onlineTransfersFavicon.png" type="image/x-icon"/>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"/>
 		<link rel="stylesheet" href="./styles/index.css" />
 		<title>Online Transfer Mendoza</title>
 	</head>
 	<body>
+		<!-- Empieza el encabezadp -->
 		<header class="head-page" id="top-page">
 			<div class="logo-head">
-				<img
-					src="./img/Logo Online Transfer.svg"
-					width="100"
-					alt="logo Online Transfer - Car with mountain behind and a plane"
-				/>
+				<img src="./img/Logo Online Transfer.svg" width="100" alt="logo Online Transfer - Car with mountain behind and a plane"/>
 				<h1>Online Transfers</h1>
 			</div>
 			<navbar class="navbar-head">
 				<ul class="nav justify-content-end">
 					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="#"
-							>Servicios</a
-						>
+						<a class="nav-link active" aria-current="page" href="#servicios">Servicios</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Cotizacion</a>
+						<a class="nav-link" href="#cotizacion">Cotizacion</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Contacto</a>
+						<a class="nav-link" href="#contacto">Contacto</a>
 					</li>
 				</ul>
 			</navbar>
 		</header>
+		<!-- -->
+		<!-- Empieza bienvenida con foto -->
 		<main class="welcome-main">
 			<picture class="img-welcome-main">
-				<source
-					media="(min-width: 800px)"
-					srcset="./img/bienvenida-grande.jpg"
-				/>
-				<source
-					media="(max-width: 350px)"
-					srcset="./img/bienvenida-extraS.jpg"
-				/>
-
-				<img
-					class="img-welcome"
-					src="./img/bienvenida-grande.jpg"
-					alt="Woman taking a taxi"
-				/>
+				<source media="(min-width: 800px)" srcset="./img/bienvenida-grande.jpg"/>
+				<source media="(max-width: 350px)" srcset="./img/bienvenida-extraS.jpg"/>
+				<img class="img-welcome" src="./img/bienvenida-grande.jpg" alt="Woman taking a taxi"/>
 			</picture>
 		</main>
+		<!--  -->
+		<!-- Empieza bienvenida extendida con descripcion -->
 		<section class="description">
 			<h2>Bienvenidos a Online Transfers!</h2>
 			<p>
 				Somos una empresa de transporte de pasajeros enfocados en dar lo mejor
 				de nosotros para la total satisfaccion y comodidad de nuestros clientes.
 			</p>
-			<q class="quote"
-				>Nuestra empresa fue fundada en el año 2010. Con el fin de poder atraer
+			<q class="quote">
+				Nuestra empresa fue fundada en el año 2010. Con el fin de poder atraer
 				y concebir un buen servicio de viajes a traves de plataformas digitales.
 				Disfrutando toda esta accesibilidad para el gran Mendoza y conocer sus
-				mejores atracciones turisticas y paisajes conocidos mundialmente.</q
-			>
+				mejores atracciones turisticas y paisajes conocidos mundialmente.
+			</q>
 			<p class="founder-name">
 				<strong>Javier Argañaraz (Gerente y Fundador)</strong>
 			</p>
 		</section>
-		<section class="services">
+		<!--  -->
+		<!-- Empieza seccion SERVICIOS -->
+		<section class="services" id="servicios">
 			<h2>Nuestros servicios</h2>
-			<div class="card" style="width: 18rem">
-				<img
-					src="./img/mendoza-aconcagua.jpg"
-					class="card-img-top"
-					alt="People in mountains in Aconcagua Park, Mendoza."
-				/>
+			<div class="card">
+				<img src="./img/mendoza-viñedos (Personalizado).jpg" class="card-img-top" alt="Vineyards in Mendoza, Argentina with mountains behind."/>
 				<div class="card-body">
 					<h3 class="card-title">Servicio de viajes turisticos</h3>
 					<p class="card-text">
@@ -94,12 +73,8 @@
 					<button type="button" class="btn btn-outline-light">Reserve su viaje</button>
 				</div>
 			</div>
-			<div class="card" style="width: 18rem">
-				<img
-					src="./img/hombre-aeropuerto.jpg"
-					class="card-img-top"
-					alt="Man in airport"
-				/>
+			<div class="card">
+				<img src="./img/hombre-aeropuerto.jpg" class="card-img-top" alt="Man in airport"/>
 				<div class="card-body">
 					<h3 class="card-title">Transporte aeropuerto</h3>
 					<p class="card-text">
@@ -108,62 +83,79 @@
 					<button type="button" class="btn btn-outline-light">Reserve su viaje</button>
 				</div>
 			</div>
+			<div class="card">
+				<img src="./img/remis.jpg" class="card-img-top" alt="Man driving a car"/>
+				<div class="card-body">
+					<h3 class="card-title">Transporte urbano</h3>
+					<p class="card-text">
+						Te llevamos donde desees.
+					</p>
+					<button type="button" class="btn btn-outline-light">Reserve su viaje</button>
+				</div>
+			</div>
 		</section>
+		<!--  -->
+		<!-- Empieza seccion TESTIMONIOS -->
 		<section class="opinions-container">
 			<h2 class="opinions-title">Opiniones de nuestros clientes</h2>
 			<p class="opinions-p">En Online Transfers nos tomamos muy en serio nuestro trabajo y queremos brindarle el mejor servicio.</p>
 			<div class="opinions-people">
 				<div class="opinion">
 					<h3>Arman Aguirre</h3>
-					<p>Agradezco la amabilidad y servicio de Online Transfer Mendoza. Por lo temprano que me trasladaba al aeropuerto hoy 1/1 el miedo era no conseguir taxi o traslado, ésta empresa permite reservar y gestionar todo x WhatsApp (paciencia, tardan un poco en responder, pero responden). En mí caso reserve con 48hs de anticipación, corroboré 24hs, tenían todos mis datos listos, me dijeron que coche, conductor, matrícula me pasaría a buscar y podes pagar con efectivo, débito, crédito o MP. Excelente servicio y el conductor súper responsable y amable. Los recomiendo.</p>
+					<p>
+						Agradezco la amabilidad y servicio de Online Transfer Mendoza. Por lo temprano que me trasladaba al aeropuerto hoy 1/1 el miedo era no conseguir taxi o traslado, ésta empresa permite reservar y gestionar todo x WhatsApp (paciencia, tardan un poco en responder, pero responden). En mí caso reserve con 48hs de anticipación, corroboré 24hs, tenían todos mis datos listos, me dijeron que coche, conductor, matrícula me pasaría a buscar y podes pagar con efectivo, débito, crédito o MP. Excelente servicio y el conductor súper responsable y amable. Los recomiendo.
+					</p>
 					<div class="stars">
-						<img src="./img/estrella.png" alt="start of points" width="25px"/>
-						<img src="./img/estrella.png" alt="start of points" width="25px"/>
-						<img src="./img/estrella.png" alt="start of points" width="25px"/>
-						<img src="./img/estrella.png" alt="start of points" width="25px"/>
-						<img src="./img/estrella.png" alt="start of points" width="25px"/>
+						<img src="./img/estrella.png" alt="start of points" width="25"/>
+						<img src="./img/estrella.png" alt="start of points" width="25"/>
+						<img src="./img/estrella.png" alt="start of points" width="25"/>
+						<img src="./img/estrella.png" alt="start of points" width="25"/>
+						<img src="./img/estrella.png" alt="start of points" width="25"/>
 					</div>
 				</div>
 				<div class="opinion">
 					<h3>Analia Di Leo</h3>
 					<p>Excelente atención y muy buena predisposición! Lo recomiendo.</p>
 					<div class="stars">
-						<img src="./img/estrella.png" alt="start of points" width="25px"/>
-						<img src="./img/estrella.png" alt="start of points" width="25px"/>
-						<img src="./img/estrella.png" alt="start of points" width="25px"/>
-						<img src="./img/estrella.png" alt="start of points" width="25px"/>
-						<img src="./img/estrella.png" alt="start of points" width="25px"/>
+						<img src="./img/estrella.png" alt="start of points" width="25"/>
+						<img src="./img/estrella.png" alt="start of points" width="25"/>
+						<img src="./img/estrella.png" alt="start of points" width="25"/>
+						<img src="./img/estrella.png" alt="start of points" width="25"/>
+						<img src="./img/estrella.png" alt="start of points" width="25"/>
 					</div>
 				</div>
 				<div class="opinion">
 					<h3>Maria Fernanda Rubio</h3>
 					<p>(No ha realizado comentarios)</p>
 					<div class="stars">
-						<img src="./img/estrella.png" alt="start of points" width="25px"/>
-						<img src="./img/estrella.png" alt="start of points" width="25px"/>
-						<img src="./img/estrella.png" alt="start of points" width="25px"/>
-						<img src="./img/estrella.png" alt="start of points" width="25px"/>
-						<img src="./img/estrella.png" alt="start of points" width="25px"/>
+						<img src="./img/estrella.png" alt="start of points" width="25"/>
+						<img src="./img/estrella.png" alt="start of points" width="25"/>
+						<img src="./img/estrella.png" alt="start of points" width="25"/>
+						<img src="./img/estrella.png" alt="start of points" width="25"/>
+						<img src="./img/estrella.png" alt="start of points" width="25"/>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!-- Whatsapp flotante -->
-		<a
-			href="http://wa.me/542615085437"
-			class="link-wp"
-			target="_blank"
-			rel="noopener"
-			><img
-				class="whatsapp-ico"
-				src="./ico/whatsappIcon.svg"
-				alt="Whatsapp Logo - Contact Us"
-				width="80"
-		/></a>
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-			crossorigin="anonymous"
-		></script>
+		<!--  -->
+		<!-- Empieza seccion CONTACTO -->
+		<section class="contact" id="contacto">
+			<h2>Contacto</h2>
+			<p>Contáctanos y reserva tu viaje. <br/> Haga click o interactúe con la opción y será redirigido.</p>
+			<div class="celular contact-option">
+				<a href="tel:02615085437"><strong>0261 508-5437</strong></a>
+				<a href="tel:02613630406"><strong>0261 363-0406</strong></a>
+				<a href="http://wa.me/542615085437" class="link-wp" target="_blank" rel="noopener"><img src="./ico/whatsappIcon.svg" alt="Whatsapp Logo - Section Contact" width="40"/><strong>Inicie un chat en WhatsApp</strong></a>
+			</div>
+		</section>
+		<!--  -->
+		<!--Empieza Whatsapp flotante Derecha-Abajo -->
+		<a href="http://wa.me/542615085437" id="cotizacion" class="link-wp" target="_blank" rel="noopener">
+			<img class="whatsapp-ico" src="./ico/whatsappIcon.svg" alt="Whatsapp Logo - Floating" width="80"/>
+		</a>
+		<!--  -->
+		<!-- Scripts -->
+		<script	src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+		<!--  -->
 	</body>
 </html>
