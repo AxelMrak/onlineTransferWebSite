@@ -236,6 +236,14 @@ h1 {
   color: black;
 }
 
+.card-urban {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .opinions-container {
   background-color: #ff9500;
   color: white;
@@ -324,6 +332,7 @@ h1 {
 }
 
 .maps {
+  font-family: "Open Sans", sans-serif;
   padding: 2rem;
   color: white;
   background-color: #28292B;
@@ -337,6 +346,7 @@ h1 {
 
 .map-frame {
   width: 80vw;
+  border-radius: 20px;
 }
 
 .foot {
@@ -348,6 +358,7 @@ h1 {
   padding: 1rem;
   color: white;
   background-color: #28292B;
+  font-family: "Source Sans Pro", sans-serif;
 }
 @media screen and (max-width: 800px) {
   .foot {
@@ -370,4 +381,16 @@ h1 {
   .whatsapp-ico {
     width: 50px;
   }
+}
+
+.swal-modal {
+  background-color: #ff9500;
+}
+
+.swal-text {
+  color: black;
+}
+
+.swal-button--confirm {
+  background-color: green;
 }/*# sourceMappingURL=index.css.map */
