@@ -42,3 +42,30 @@ const cotizacionEvent = event => {
 }
 
 cotizacionInNavbar.addEventListener('click', cotizacionEvent)
+
+/** 
+ * * Traduccion
+ * ? Esto realiza la traduccion de la pagina, depende de que bandera toques.
+ * ? Se hace un reemplazo de la etiqueta HTML con los datos del JSON correspondiente al idioma.
+*/
+
+const flagsElement = document.getElementById('flags');
+
+const textsToChange = document.querySelectorAll("[data-section]");
+
+const changeLanguage = async lang => {
+    const requestJson = await fetch(`./languages/${lang}.json`);
+    const texts = await requestJson.json();
+
+    for(const text of textsToChange){
+        const section = text.dataset.section;
+        const value = text.dataset.value;
+
+        text.innerHTML = texts[section][value];
+    }
+    
+}
+
+flagsElement.addEventListener('click', (e) => {
+    changeLanguage(e.target.parentElement.dataset.language)
+})

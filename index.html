@@ -34,18 +34,26 @@
 				/>
 				<h1>Online Transfers</h1>
 			</div>
+			<div class="flags" id="flags">
+				<div class="flag-item" data-language="es">
+					<img src="./ico/es.svg" alt="Flag of Spain indicate the Spanish language" width="50"/>
+				</div>
+				<div class="flag-item" data-language="en">
+					<img src="./ico/us.svg" alt="Flag of United States indicate the English language" width="50"/>
+				</div>
+			</div>
 			<navbar class="navbar-head">
 				<ul class="nav justify-content-end">
 					<li class="nav-item">
 						<a class="nav-link active" aria-current="page" href="#servicios"
-							>Servicios</a
+						data-section="navbar" data-value="first-item">Servicios</a
 						>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#" id="cotizacion-nav">Cotización</a>
+						<a class="nav-link" href="#" id="cotizacion-nav" data-section="navbar" data-value="second-item">Cotización</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#contacto">Contacto</a>
+						<a class="nav-link" href="#contacto" data-section="navbar" data-value="third-item">Contacto</a>
 					</li>
 				</ul>
 			</navbar>
@@ -72,25 +80,25 @@
 		<!--  -->
 		<!-- Empieza bienvenida extendida con descripcion -->
 		<section class="description to-appear">
-			<h2>Bienvenidos a Online Transfers!</h2>
-			<p>
+			<h2 data-section="main" data-value="main-title">Bienvenidos a Online Transfers!</h2>
+			<p data-section="main" data-value="main-description">
 				Somos una empresa de transporte de pasajeros enfocados en dar lo mejor
 				de nosotros para la total satisfacción y comodidad de nuestros clientes.
 			</p>
-			<q class="quote">
+			<q class="quote" data-section="main" data-value="quote">
 				Nuestra empresa fue fundada en el año 2010. Con el fin de poder atraer y
 				concebir un buen servicio de viajes a través de plataformas digitales.
 				Disfrutando toda esta accesibilidad para el gran Mendoza y conocer sus
 				mejores atracciones turísticas y paisajes conocidos mundialmente.
 			</q>
-			<p class="founder-name">
+			<p class="founder-name" data-section="main" data-value="author">
 				<strong>Javier Argañaraz (Gerente y Fundador)</strong>
 			</p>
 		</section>
 		<!--  -->
 		<!-- Empieza seccion SERVICIOS -->
 		<section class="services" id="servicios">
-			<h2>Nuestros servicios</h2>
+			<h2 data-section="services" data-value="services-title">Nuestros servicios</h2>
 			<div class="card to-appear">
 				<img
 					src="./img/mendoza-viñedos.webp"
@@ -98,13 +106,13 @@
 					alt="Vineyards in Mendoza, Argentina with mountains behind."
 				/>
 				<div class="card-body">
-					<h3 class="card-title">Servicio de viajes turísticos</h3>
-					<p class="card-text">
+					<h3 class="card-title" data-section="services" data-value="first-card-title">Servicio de viajes turísticos</h3>
+					<p class="card-text" data-section="services" data-value="first-card-body">
 						Te llevamos a conocer los hermosos paisajes de nuestra querida
 						provincia.
 					</p>
 					<a class="btn btn-outline-light" href="http://wa.me/542615085437"
-						>Reserve su viaje</a
+					data-section="services" data-value="services-text-btn">Reserve su viaje</a
 					>
 				</div>
 			</div>
@@ -115,11 +123,11 @@
 					alt="Man in airport"
 				/>
 				<div class="card-body">
-					<h3 class="card-title">Transporte aeropuerto</h3>
-					<p class="card-text">
+					<h3 class="card-title" data-section="services" data-value="second-card-title">Transporte aeropuerto</h3>
+					<p class="card-text" data-section="services" data-value="second-card-body">
 						Te llevamos desde el aeropuerto a donde lo desees.
 					</p>
-					<a class="btn btn-outline-light" href="http://wa.me/542615085437"
+					<a class="btn btn-outline-light" href="http://wa.me/542615085437" data-section="services" data-value="services-text-btn"
 						>Reserve su viaje</a
 					>
 				</div>
@@ -131,9 +139,10 @@
 					alt="Man driving a car"
 				/>
 				<div class="card-body card-urban">
-					<h3 class="card-title">Transporte urbano</h3>
-					<p class="card-text">Te llevamos donde desees.</p>
-					<a class="btn btn-outline-light" href="http://wa.me/542615085437"
+					<h3 class="card-title" data-section="services" data-value="third-card-title">Transporte urbano</h3>
+					<p class="card-text" data-section="services"
+					data-value="third-card-body">Te llevamos donde desees.</p>
+					<a class="btn btn-outline-light" href="http://wa.me/542615085437" data-section="services" data-value="services-text-btn"
 						>Reserve su viaje</a
 					>
 				</div>
@@ -142,15 +151,15 @@
 		<!--  -->
 		<!-- Empieza seccion TESTIMONIOS -->
 		<section class="opinions-container  to-appear">
-			<h2 class="opinions-title">Opiniones de nuestros clientes</h2>
-			<p class="opinions-p">
+			<h2 class="opinions-title" data-section="opinions" data-value="opinion-title">Opiniones de nuestros clientes</h2>
+			<p class="opinions-p" data-section="opinions" data-value="opinion-description">
 				En Online Transfers nos tomamos muy en serio nuestro trabajo y queremos
 				brindarle el mejor servicio.
 			</p>
 			<div class="opinions-people">
 				<div class="opinion">
 					<h3>Arman Aguirre</h3>
-					<p>
+					<p data-section="opinions" data-value="first-opinion">
 						Agradezco la amabilidad y servicio de Online Transfer Mendoza. Por
 						lo temprano que me trasladaba al aeropuerto hoy 1/1 el miedo era no
 						conseguir taxi o traslado, ésta empresa permite reservar y gestionar
@@ -171,7 +180,7 @@
 				</div>
 				<div class="opinion">
 					<h3>Analia Di Leo</h3>
-					<p>Excelente atención y muy buena predisposición! Lo recomiendo.</p>
+					<p data-section="opinions" data-value="second-opinion">Excelente atención y muy buena predisposición! Lo recomiendo.</p>
 					<div class="stars">
 						<img src="./img/estrella.png" alt="start of points" width="25" />
 						<img src="./img/estrella.png" alt="start of points" width="25" />
@@ -182,7 +191,7 @@
 				</div>
 				<div class="opinion">
 					<h3>Maria Fernanda Rubio</h3>
-					<p>(No ha realizado comentarios)</p>
+					<p data-section="opinions" data-value="third-opinion">(No ha realizado comentarios)</p>
 					<div class="stars">
 						<img src="./img/estrella.png" alt="start of points" width="25" />
 						<img src="./img/estrella.png" alt="start of points" width="25" />
@@ -196,31 +205,33 @@
 		<!--  -->
 		<!-- Empieza seccion CONTACTO -->
 		<section class="contact to-appear" id="contacto">
-			<h2>Contacto</h2>
-			<p>
+			<h2 data-section="contact" data-value="contact-title">Contacto</h2>
+			<p data-section="contact" data-value="contact-description">
 				Contáctanos y reserva tu viaje. <br />
 				Haga click o interactúe con la opción y será redirigido.
 			</p>
 			<div class="celular contact-option">
 				<a href="tel:02615085437"><strong>0261 508-5437</strong></a>
 				<a href="tel:02613630406"><strong>0261 363-0406</strong></a>
-				<a
+				<img
+						src="./ico/whatsappIcon.svg"
+						alt="Whatsapp Logo - Section Contact"
+						width="40"
+					/><a
 					href="http://wa.me/542615085437"
 					class="link-wp"
 					target="_blank"
 					rel="noopener"
-					><img
-						src="./ico/whatsappIcon.svg"
-						alt="Whatsapp Logo - Section Contact"
-						width="40"
-					/><strong>Inicie un chat en WhatsApp</strong></a
+					data-section="contact"
+					data-value="whatsapp"
+					><strong>Inicie un chat en WhatsApp</strong></a
 				>
 			</div>
 		</section>
 		<!--  -->
 		<!-- Empieza seccion de MAPAS -->
 		<section class="maps">
-			<h2>Encuéntranos</h2>
+			<h2 data-section="findUs" data-value="find-title">Encuéntranos</h2>
 			<iframe
 				class="map-frame"
 				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.1434361855468!2d-68.815405!3d-32.8943757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e09a79f3abce3%3A0x50be623dc71a1608!2sONLINE%20TRANSFER%20MENDOZA!5e0!3m2!1ses-419!2sar!4v1662397473397!5m2!1ses-419!2sar"
@@ -242,8 +253,8 @@
 				/>
 			</div>
 			<div class="Info">
-				<p><strong>Dirección:</strong> Soler 348, M5519, Mendoza Argentina</p>
-				<p><strong>Horario de atención:</strong> Lun-Dom (24hs)</p>
+				<p data-section="footer" data-value="address"><strong>Dirección:</strong> Soler 348, M5519, Mendoza Argentina</p>
+				<p data-section="footer" data-value="hours"><strong>Horario de atención:</strong> Lun-Dom (24hs)</p>
 			</div>
 		</footer>
 		<!--  -->
