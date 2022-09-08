@@ -239,6 +239,7 @@ h1 {
   color: black;
   border: #28292B;
   transition: border 1s;
+  margin: 1rem;
 }
 
 .card:hover {
