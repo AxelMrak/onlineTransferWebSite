@@ -24,7 +24,7 @@
 		<title>Online Transfer Mendoza</title>
 	</head>
 	<body>
-		<!-- Empieza el encabezadp -->
+		<!-- Empieza el encabezado -->
 		<header class="head-page" id="top-page">
 			<div class="logo-head">
 				<img
@@ -34,28 +34,57 @@
 				/>
 				<h1>Online Transfers</h1>
 			</div>
-			<div class="flags" id="flags">
-				<div class="flag-item" data-language="es">
-					<img src="./ico/es.svg" alt="Flag of Spain indicate the Spanish language" width="50"/>
-				</div>
-				<div class="flag-item" data-language="en">
-					<img src="./ico/us.svg" alt="Flag of United States indicate the English language" width="50"/>
-				</div>
-			</div>
+
 			<navbar class="navbar-head">
 				<ul class="nav justify-content-end">
 					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="#servicios"
-						data-section="navbar" data-value="first-item">Servicios</a
+						<a
+							class="nav-link active"
+							aria-current="page"
+							href="#servicios"
+							data-section="navbar"
+							data-value="first-item"
+							>Servicios</a
 						>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#" id="cotizacion-nav" data-section="navbar" data-value="second-item">Cotización</a>
+						<a
+							class="nav-link"
+							href="#"
+							id="cotizacion-nav"
+							data-section="navbar"
+							data-value="second-item"
+							>Cotización</a
+						>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#contacto" data-section="navbar" data-value="third-item">Contacto</a>
+						<a
+							class="nav-link"
+							href="#contacto"
+							data-section="navbar"
+							data-value="third-item"
+							>Contacto</a
+						>
 					</li>
 				</ul>
+				<div class="flags" id="flags">
+					<div class="flag-item" data-language="es">
+						<p>Español</p>
+						<img
+							src="./ico/es.svg"
+							alt="Flag of Spain indicate the Spanish language"
+							width="30"
+						/>
+					</div>
+					<div class="flag-item" data-language="en">
+						<p>English</p>
+						<img
+							src="./ico/us.svg"
+							alt="Flag of United States indicate the English language"
+							width="30"
+						/>
+					</div>
+				</div>
 			</navbar>
 		</header>
 		<!-- -->
@@ -80,7 +109,9 @@
 		<!--  -->
 		<!-- Empieza bienvenida extendida con descripcion -->
 		<section class="description to-appear">
-			<h2 data-section="main" data-value="main-title">Bienvenidos a Online Transfers!</h2>
+			<h2 data-section="main" data-value="main-title">
+				Bienvenidos a Online Transfers!
+			</h2>
 			<p data-section="main" data-value="main-description">
 				Somos una empresa de transporte de pasajeros enfocados en dar lo mejor
 				de nosotros para la total satisfacción y comodidad de nuestros clientes.
@@ -98,21 +129,36 @@
 		<!--  -->
 		<!-- Empieza seccion SERVICIOS -->
 		<section class="services" id="servicios">
-			<h2 data-section="services" data-value="services-title">Nuestros servicios</h2>
+			<h2 data-section="services" data-value="services-title">
+				Nuestros servicios
+			</h2>
 			<div class="card to-appear">
 				<img
-					src="./img/mendoza-viñedos.webp"
+					src="./img/remis.webp"
 					class="card-img-top"
-					alt="Vineyards in Mendoza, Argentina with mountains behind."
+					alt="Man driving a car"
 				/>
-				<div class="card-body">
-					<h3 class="card-title" data-section="services" data-value="first-card-title">Servicio de viajes turísticos</h3>
-					<p class="card-text" data-section="services" data-value="first-card-body">
-						Te llevamos a conocer los hermosos paisajes de nuestra querida
-						provincia.
+				<div class="card-body card-urban">
+					<h3
+						class="card-title"
+						data-section="services"
+						data-value="third-card-title"
+					>
+						Transporte urbano
+					</h3>
+					<p
+						class="card-text"
+						data-section="services"
+						data-value="third-card-body"
+					>
+						Te llevamos donde desees.
 					</p>
-					<a class="btn btn-outline-light" href="http://wa.me/542615085437"
-					data-section="services" data-value="services-text-btn">Reserve su viaje</a
+					<a
+						class="btn btn-outline-light"
+						href="http://wa.me/542615085437"
+						data-section="services"
+						data-value="services-text-btn"
+						>Reserve su viaje</a
 					>
 				</div>
 			</div>
@@ -123,26 +169,56 @@
 					alt="Man in airport"
 				/>
 				<div class="card-body">
-					<h3 class="card-title" data-section="services" data-value="second-card-title">Transporte aeropuerto</h3>
-					<p class="card-text" data-section="services" data-value="second-card-body">
+					<h3
+						class="card-title"
+						data-section="services"
+						data-value="second-card-title"
+					>
+						Transporte aeropuerto
+					</h3>
+					<p
+						class="card-text"
+						data-section="services"
+						data-value="second-card-body"
+					>
 						Te llevamos desde el aeropuerto a donde lo desees.
 					</p>
-					<a class="btn btn-outline-light" href="http://wa.me/542615085437" data-section="services" data-value="services-text-btn"
+					<a
+						class="btn btn-outline-light"
+						href="http://wa.me/542615085437"
+						data-section="services"
+						data-value="services-text-btn"
 						>Reserve su viaje</a
 					>
 				</div>
 			</div>
 			<div class="card to-appear">
 				<img
-					src="./img/remis.webp"
+					src="./img/mendoza-viñedos.webp"
 					class="card-img-top"
-					alt="Man driving a car"
+					alt="Vineyards in Mendoza, Argentina with mountains behind."
 				/>
-				<div class="card-body card-urban">
-					<h3 class="card-title" data-section="services" data-value="third-card-title">Transporte urbano</h3>
-					<p class="card-text" data-section="services"
-					data-value="third-card-body">Te llevamos donde desees.</p>
-					<a class="btn btn-outline-light" href="http://wa.me/542615085437" data-section="services" data-value="services-text-btn"
+				<div class="card-body">
+					<h3
+						class="card-title"
+						data-section="services"
+						data-value="first-card-title"
+					>
+						Servicio de viajes turísticos
+					</h3>
+					<p
+						class="card-text"
+						data-section="services"
+						data-value="first-card-body"
+					>
+						Te llevamos a conocer los hermosos paisajes de nuestra querida
+						provincia.
+					</p>
+					<a
+						class="btn btn-outline-light"
+						href="http://wa.me/542615085437"
+						data-section="services"
+						data-value="services-text-btn"
 						>Reserve su viaje</a
 					>
 				</div>
@@ -150,9 +226,19 @@
 		</section>
 		<!--  -->
 		<!-- Empieza seccion TESTIMONIOS -->
-		<section class="opinions-container  to-appear">
-			<h2 class="opinions-title" data-section="opinions" data-value="opinion-title">Opiniones de nuestros clientes</h2>
-			<p class="opinions-p" data-section="opinions" data-value="opinion-description">
+		<section class="opinions-container to-appear">
+			<h2
+				class="opinions-title"
+				data-section="opinions"
+				data-value="opinion-title"
+			>
+				Opiniones de nuestros clientes
+			</h2>
+			<p
+				class="opinions-p"
+				data-section="opinions"
+				data-value="opinion-description"
+			>
 				En Online Transfers nos tomamos muy en serio nuestro trabajo y queremos
 				brindarle el mejor servicio.
 			</p>
@@ -180,7 +266,9 @@
 				</div>
 				<div class="opinion">
 					<h3>Analia Di Leo</h3>
-					<p data-section="opinions" data-value="second-opinion">Excelente atención y muy buena predisposición! Lo recomiendo.</p>
+					<p data-section="opinions" data-value="second-opinion">
+						Excelente atención y muy buena predisposición! Lo recomiendo.
+					</p>
 					<div class="stars">
 						<img src="./img/estrella.png" alt="start of points" width="25" />
 						<img src="./img/estrella.png" alt="start of points" width="25" />
@@ -191,7 +279,9 @@
 				</div>
 				<div class="opinion">
 					<h3>Maria Fernanda Rubio</h3>
-					<p data-section="opinions" data-value="third-opinion">(No ha realizado comentarios)</p>
+					<p data-section="opinions" data-value="third-opinion">
+						(No ha realizado comentarios)
+					</p>
 					<div class="stars">
 						<img src="./img/estrella.png" alt="start of points" width="25" />
 						<img src="./img/estrella.png" alt="start of points" width="25" />
@@ -214,10 +304,10 @@
 				<a href="tel:02615085437"><strong>0261 508-5437</strong></a>
 				<a href="tel:02613630406"><strong>0261 363-0406</strong></a>
 				<img
-						src="./ico/whatsappIcon.svg"
-						alt="Whatsapp Logo - Section Contact"
-						width="40"
-					/><a
+					src="./ico/whatsappIcon.svg"
+					alt="Whatsapp Logo - Section Contact"
+					width="40"
+				/><a
 					href="http://wa.me/542615085437"
 					class="link-wp"
 					target="_blank"
@@ -253,15 +343,18 @@
 				/>
 			</div>
 			<div class="Info">
-				<p data-section="footer" data-value="address"><strong>Dirección:</strong> Soler 348, M5519, Mendoza Argentina</p>
-				<p data-section="footer" data-value="hours"><strong>Horario de atención:</strong> Lun-Dom (24hs)</p>
+				<p data-section="footer" data-value="address">
+					<strong>Dirección:</strong> Soler 348, M5519, Mendoza Argentina
+				</p>
+				<p data-section="footer" data-value="hours">
+					<strong>Horario de atención:</strong> Lun-Dom (24hs)
+				</p>
 			</div>
 		</footer>
 		<!--  -->
 		<!--Empieza Whatsapp flotante Derecha-Abajo -->
 		<a
 			href="http://wa.me/542615085437"
-			
 			class="link-wp"
 			target="_blank"
 			rel="noopener"
