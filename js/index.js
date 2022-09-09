@@ -35,7 +35,7 @@ const cotizacionInNavbar = document.getElementById('cotizacion-nav');
  */
 const cotizacionEvent = event => {
     event.preventDefault();
-    swal('Para solicitar una cotización por favor comunicate por Whatsapp (Adjunte el tipo de servicio y destino)', {
+    swal('Para solicitar una cotización por favor comunicate por Whatsapp (Adjunte el tipo de servicio y destino). If you want a price quotation, send us a whatsapp with your question.', {
         icon: 'info',
         buttons: ['Salir', 'Ok'],
       });

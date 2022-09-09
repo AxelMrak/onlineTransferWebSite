@@ -1,0 +1,48 @@
+{
+	"navbar": {
+		"first-item": "Serviços",
+		"second-item": "Cotação",
+		"third-item": "Contato"
+	},
+
+	"main": {
+		"main-title": "Bem-vindo à Online Transfers!",
+		"main-description": "Somos uma empresa de transporte de passageiros focada em dar o melhor de nós mesmos para a total satisfação e conforto dos nossos clientes.",
+		"quote": "Nossa empresa foi fundada em 2010. Para poder atrair e conceber um bom serviço de viagens através de plataformas digitais. Aproveitando toda essa acessibilidade à grande Mendoza e conhecendo suas melhores atrações turísticas e paisagens conhecidas mundialmente.",
+		"author": "Javier Argañaraz (Gerente e Fundador)"
+	},
+
+	"services": {
+		"services-title": "Nossos serviços",
+		"services-text-btn": "Reserve sua viagem",
+		"first-card-title": "Serviço de viagens turísticas",
+		"first-card-body": "Levamos você a conhecer as belas paisagens de nossa amada província.",
+		"second-card-title": "Transporte do aeroporto",
+		"second-card-body": "Levamos você do aeroporto para onde você quiser",
+		"third-card-title": "Transporte urbano",
+		"third-card-body": "Levamos você para onde quiser."
+	},
+
+	"opinions": {
+		"opinion-title": "Opiniões de nossos clientes",
+		"opinion-description": "Na Online Transfers levamos o nosso trabalho muito a sério e queremos prestar-lhe o melhor serviço.",
+		"first-opinion": "Agradeço a gentileza e serviço de Transferência Online Mendoza. Por ter ido cedo para o aeroporto hoje 1/1, o medo era não pegar táxi ou transfer, essa empresa permite que você reserve e gerencie tudo pelo WhatsApp (tenha paciência, demoram um pouco para responder, mas respondem) . No meu caso, reservei com 48 horas de antecedência, verifiquei 24 horas, eles tinham todos os meus dados prontos, me disseram qual carro, motorista, placa iria me buscar e você pode pagar com dinheiro, débito, crédito ou MP. Excelente atendimento e motorista super responsável e simpático. Eu os recomendo.",
+		"second-opinion": "Excelente atenção e muito boa predisposição! Eu recomendo.",
+		"third-opinion": "(Você não comentou)"
+	},
+
+	"contact": {
+		"contact-title": "Contato",
+		"contact-description": "Entre em contato conosco e reserve sua viagem. <br/> Clique ou interaja com a opção e você será redirecionado.",
+		"whatsapp": "<strong>Iniciar um bate-papo no WhatsApp</strong>"
+	},
+
+	"findUs": {
+		"find-title": "Ache-nos"
+	},
+
+	"footer": {
+		"address": "<strong>Endereço: </strong> Soler 348, M5519, Mendoza Argentina",
+		"hours": "<strong>Horário de atenção: </strong> Lun-Dom (24hs)"
+	}
+}
