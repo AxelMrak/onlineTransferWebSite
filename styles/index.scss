@@ -152,8 +152,9 @@ h1 {
 	max-width: 100vw;
 }
 
-.img-welcome {
-	width: 100%;
+.carousel-control-next,
+.carousel-control-prev {
+	z-index: 0;
 }
 
 // ESTILOS DE LA PRESENTACION Y DESCRIPCION
