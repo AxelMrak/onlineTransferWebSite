@@ -22,27 +22,6 @@ sections.forEach(section => {
     window.addEventListener(`scroll`, appearSections);
 });
 
-/**
- * * Extraemos del DOM
- */
-const cotizacionInNavbar = document.getElementById('cotizacion-nav');
-
-
-/**
- * * Hacemos aparecer una alerta que le dirá al usuario como pedir una cotizacion.
- * @param {evento} event 
- * * Colocamos el listener del evento
- */
-const cotizacionEvent = event => {
-    event.preventDefault();
-    swal('Para solicitar una cotización por favor comunicate por Whatsapp (Adjunte el tipo de servicio y destino). If you want a price quotation, send us a whatsapp with your question.', {
-        icon: 'info',
-        buttons: ['Salir', 'Ok'],
-      });
-}
-
-cotizacionInNavbar.addEventListener('click', cotizacionEvent)
-
 /** 
  * * Traduccion
  * ? Esto realiza la traduccion de la pagina, depende de que bandera toques.
@@ -69,3 +48,25 @@ const changeLanguage = async lang => {
 flagsElement.addEventListener('click', (e) => {
     changeLanguage(e.target.parentElement.dataset.language)
 })
+
+/**
+ * 
+ * 
+ */
+
+const quotationAnchor = document.getElementById('price-quotation');
+const alert = document.getElementById('alert-price-quotation');
+const closeButton = document.getElementById('close-btn');
+
+const alertAppear = e => {
+    e.preventDefault();
+    alert.style.display = 'unset';
+}
+
+const alertDisappear = e => {
+    e.preventDefault();
+    alert.style.display='none';
+}
+
+quotationAnchor.addEventListener('click', alertAppear);
+closeButton.addEventListener('click', alertDisappear);

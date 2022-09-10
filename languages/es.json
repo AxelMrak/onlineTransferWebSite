@@ -44,5 +44,10 @@
     "footer": {
         "address": "<strong>Dirección: </strong> Soler 348, M5519, Mendoza Argentina",
         "hours": "<strong>Horario de atención: </strong> Lun-Dom (24hs)"
+    },
+
+    "alert": {
+        "title-alert": "Cotización",
+        "body-alert": "Por favor, para recibir una cotización comuníquese por WhatsApp o llame a los números colocados en la sección de contacto."
     }
 }

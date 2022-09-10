@@ -421,14 +421,22 @@ h1 {
   }
 }
 
-.swal-modal {
-  background-color: #ffa420;
-}
-
-.swal-text {
+#alert-price-quotation {
+  max-width: 50vw;
+  display: none;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  right: 0;
   color: black;
+  text-align: center;
+  padding: 2rem;
+  margin: 1rem;
 }
 
-.swal-button--confirm {
-  background-color: green;
+#close-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }/*# sourceMappingURL=index.css.map */
