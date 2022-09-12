@@ -50,23 +50,32 @@ flagsElement.addEventListener('click', (e) => {
 })
 
 /**
- * 
- * 
+ * * Obtenemos elementos del DOM
  */
 
 const quotationAnchor = document.getElementById('price-quotation');
 const alert = document.getElementById('alert-price-quotation');
 const closeButton = document.getElementById('close-btn');
 
+/**
+ * * Evento que hará que la alerta aparezca.
+ * @param {event} e 
+ */
 const alertAppear = e => {
     e.preventDefault();
     alert.style.display = 'unset';
 }
-
+/**
+ * * Evento que hará que la alerta desaparezca.
+ * @param {event} e 
+ */
 const alertDisappear = e => {
     e.preventDefault();
     alert.style.display='none';
 }
 
+/**
+ * * Events listeneners al hacer click
+ */
 quotationAnchor.addEventListener('click', alertAppear);
 closeButton.addEventListener('click', alertDisappear);
