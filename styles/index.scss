@@ -288,7 +288,10 @@ h1 {
 }
 
 .opinions-people {
-	max-width: 70vw;
+	max-width: 90vw;
+@media screen and (max-width: $medium) {
+		max-width: 100vw;
+	}
 }
 
 // ESTILOS DE LA SECCION DE CONTACTO
