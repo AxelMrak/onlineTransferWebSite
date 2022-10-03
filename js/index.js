@@ -79,3 +79,5 @@ const alertDisappear = e => {
  */
 quotationAnchor.addEventListener('click', alertAppear);
 closeButton.addEventListener('click', alertDisappear);
+
+

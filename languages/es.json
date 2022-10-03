@@ -26,9 +26,7 @@
     "opinions": {
         "opinion-title": "Opiniones de nuestros clientes",
         "opinion-description": "En Online Transfers nos tomamos muy en serio nuestro trabajo y queremos brindarle el mejor servicio.",
-        "first-opinion": "Agradezco la amabilidad y servicio de Online Transfer Mendoza. Por lo temprano que me trasladaba al aeropuerto hoy 1/1 el miedo era no conseguir taxi o traslado, ésta empresa permite reservar y gestionar todo x WhatsApp (paciencia, tardan un poco en responder, pero responden). En mí caso reserve con 48hs de anticipación, corroboré 24hs, tenían todos mis datos listos, me dijeron que coche, conductor, matrícula me pasaría a buscar y podes pagar con efectivo, débito, crédito o MP. Excelente servicio y el conductor súper responsable y amable. Los recomiendo.",
-        "second-opinion": "Excelente atención y muy buena predisposición! Lo recomiendo.",
-        "third-opinion": "(No ha realizado comentarios)"
+        "opinion-btn": "Deje su reseña"
     },
 
     "contact": {
@@ -43,7 +41,8 @@
 
     "footer": {
         "address": "<strong>Dirección: </strong> Soler 348, M5519, Mendoza Argentina",
-        "hours": "<strong>Horario de atención: </strong> Lun-Dom (24hs)"
+        "hours": "<strong>Horario de atención: </strong> Lun-Dom (24hs)",
+        "politic": "Política de privacidad"
     },
 
     "alert": {
