@@ -294,19 +294,19 @@ h1 {
   padding: 3rem;
 }
 
-.review-anchor {
-  color: black;
-  text-decoration: none;
-  font-size: larger;
-  border: 2px solid black;
-  border-radius: 15px;
-  padding: 1rem;
-  background-color: white;
-  transition: all 1s;
+.elfsight-app-7006c419-e143-428b-b948-b5db6c686b05 {
+  z-index: 0;
+  max-width: 90vw;
+  padding: 2rem;
+  margin: 1rem;
 }
 
-.go1415138789 {
-  display: none !important;
+.WidgetTitle__Header-sc-ruy1gu-2 {
+  display: none;
+}
+
+.elfsight-app-7006c419-e143-428b-b948-b5db6c686b05 a {
+  display: none;
 }
 
 .opinions-people {
