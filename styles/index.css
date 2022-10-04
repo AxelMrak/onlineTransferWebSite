@@ -296,9 +296,14 @@ h1 {
 
 .elfsight-app-7006c419-e143-428b-b948-b5db6c686b05 {
   z-index: 0;
-  max-width: 90vw;
+  width: 100vw;
   padding: 2rem;
   margin: 1rem;
+}
+@media screen and (max-width: 800px) {
+  .elfsight-app-7006c419-e143-428b-b948-b5db6c686b05 {
+    max-width: 100vw;
+  }
 }
 
 .WidgetTitle__Header-sc-ruy1gu-2 {
@@ -311,11 +316,6 @@ h1 {
 
 .opinions-people {
   max-width: 90vw;
-}
-@media screen and (max-width: 800px) {
-  .opinions-people {
-    max-width: 100vw;
-  }
 }
 
 .contact {
