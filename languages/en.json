@@ -7,25 +7,25 @@
 
 	"main": {
 		"main-title": "Welcome to Online Transfers!",
-		"main-description": "We are an enterprise of transport and transfer focused in give you the best services for your satisfaction and commodity.",
+		"main-description": "We are an enterprise of private transport and transfer in Mendoza, focused in give you the best services for your satisfaction and commodity.",
 		"quote": "Our enterprise was founded in 2010. With the objective of bring and give a good services of travels through digital plataforms. Enjoyed all these accesibility for the great Mendoza and know its bests turistic attractions and landscapes reconoziged around the world.",
 		"author": "Javier Argañaraz (Founder)"
 	},
 
 	"services": {
-		"services-title": "Our services",
+		"services-title": "Our transport services",
 		"services-text-btn": "Reserve your travel",
 		"first-card-title": "Tourist travel services",
-		"first-card-body": "We take you to know the beautiful landscapes of our beloved province.",
+		"first-card-body": "Private tourist transport so you can get to know the most beautiful places in Mendoza.",
 		"second-card-title": "Airport transfer",
-		"second-card-body": "We take you from the airport to everywhere.",
+		"second-card-body": "Private transport from airport to everywhere.",
 		"third-card-title": "Urban transfer",
-		"third-card-body": "We take you to everywhere in Mendoza."
+		"third-card-body": "Private transportation through Mendoza."
 	},
 
 	"opinions": {
 		"opinion-title": "Our clients say",
-		"opinion-description": "In Online Transfers the most important is the client and give her the best service.",
+		"opinion-description": "In Online Transfers the most important is the client and give her the best service."
 	},
 
 	"contact": {

@@ -7,25 +7,25 @@
 
     "main": {
         "main-title": "Bienvenidos a Online Transfers!",
-        "main-description": "Somos una empresa de transporte de pasajeros enfocados en dar lo mejor de nosotros para la total satisfacción y comodidad de nuestros clientes.",
+        "main-description": "Somos una empresa de transporte privado de pasajeros ubicada en Mendoza, enfocados en dar lo mejor de nosotros para la total satisfacción y comodidad de nuestros clientes.",
         "quote": "Nuestra empresa fue fundada en el año 2010. Con el fin de poder atraer y concebir un buen servicio de viajes a través de plataformas digitales. Disfrutando toda esta accesibilidad para el gran Mendoza y conocer sus mejores atracciones turísticas y paisajes conocidos mundialmente.",
         "author": "Javier Argañaraz (Gerente y Fundador)"
     },
 
     "services": {
-        "services-title": "Nuestros servicios",
+        "services-title": "Nuestros servicios de transporte",
         "services-text-btn": "Reserve su viaje",
         "first-card-title": "Servicio de viajes turísticos",
-        "first-card-body": "Te llevamos a conocer los hermosos paisajes de nuestra querida provincia.",
+        "first-card-body": "Transporte privado turístico para que conozcas los lugares mas bellos de Mendoza.",
         "second-card-title": "Transporte aeropuerto",
-        "second-card-body": "Te llevamos desde el aeropuerto a donde lo desees.",
+        "second-card-body": "Transporte privado desde el aeropuerto hacia donde tu desees.",
         "third-card-title": "Transporte urbano - Remis",
-        "third-card-body": "Te llevamos donde desees."
+        "third-card-body": "Servicio de transporte privado urbano por Mendoza."
     },
 
     "opinions": {
         "opinion-title": "Opiniones de nuestros clientes",
-        "opinion-description": "En Online Transfers nos tomamos muy en serio nuestro trabajo y queremos brindarle el mejor servicio.",
+        "opinion-description": "En Online Transfers nos tomamos muy en serio nuestro trabajo y queremos brindarle el mejor servicio."
     },
 
     "contact": {

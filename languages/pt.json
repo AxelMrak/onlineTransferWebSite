@@ -7,7 +7,7 @@
 
 	"main": {
 		"main-title": "Bem-vindo à Online Transfers!",
-		"main-description": "Somos uma empresa de transporte de passageiros focada em dar o melhor de nós mesmos para a total satisfação e conforto dos nossos clientes.",
+		"main-description": "Somos uma empresa de transporte privado de passageiros em Mendoza, focada em dar o melhor de nós mesmos para a total satisfação e conforto dos nossos clientes.",
 		"quote": "Nossa empresa foi fundada em 2010. Para poder atrair e conceber um bom serviço de viagens através de plataformas digitais. Aproveitando toda essa acessibilidade à grande Mendoza e conhecendo suas melhores atrações turísticas e paisagens conhecidas mundialmente.",
 		"author": "Javier Argañaraz (Gerente e Fundador)"
 	},
@@ -16,16 +16,16 @@
 		"services-title": "Nossos serviços",
 		"services-text-btn": "Reserve sua viagem",
 		"first-card-title": "Serviço de viagens turísticas",
-		"first-card-body": "Levamos você a conhecer as belas paisagens de nossa amada província.",
+		"first-card-body": "Transporte turístico privado para conhecer os lugares mais bonitos de Mendoza.",
 		"second-card-title": "Transporte do aeroporto",
-		"second-card-body": "Levamos você do aeroporto para onde você quiser",
+		"second-card-body": "Transporte privado do aeroporto para onde quiser.",
 		"third-card-title": "Transporte urbano",
-		"third-card-body": "Levamos você para onde quiser."
+		"third-card-body": "Serviço de transporte privado urbano em Mendoza."
 	},
 
 	"opinions": {
 		"opinion-title": "Opiniões de nossos clientes",
-		"opinion-description": "Na Online Transfers levamos o nosso trabalho muito a sério e queremos prestar-lhe o melhor serviço.",
+		"opinion-description": "Na Online Transfers levamos o nosso trabalho muito a sério e queremos prestar-lhe o melhor serviço."
 	},
 
 	"contact": {
