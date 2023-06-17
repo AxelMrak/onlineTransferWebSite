@@ -1,51 +1,57 @@
 {
-    "navbar": {
-        "first-item": "Servicios",
-        "second-item": "Cotización",
-        "third-item": "Contacto"
-    },
+	"navbar": {
+		"first-item": "Servicios",
+		"second-item": "Cotización",
+		"third-item": "Contacto"
+	},
 
-    "main": {
-        "main-title": "Bienvenidos a Online Transfers!",
-        "main-description": "Somos una empresa de transporte privado de pasajeros ubicada en Mendoza, enfocados en dar lo mejor de nosotros para la total satisfacción y comodidad de nuestros clientes.",
-        "quote": "Nuestra empresa fue fundada en el año 2010. Con el fin de poder atraer y concebir un buen servicio de viajes a través de plataformas digitales. Disfrutando toda esta accesibilidad para el gran Mendoza y conocer sus mejores atracciones turísticas y paisajes conocidos mundialmente.",
-        "author": "Javier Argañaraz (Gerente y Fundador)"
-    },
+	"main": {
+		"main-title": "Bienvenidos a Online Transfers!",
+		"main-description": "Somos una empresa de transporte privado de pasajeros ubicada en Mendoza, enfocados en dar lo mejor de nosotros para la total satisfacción y comodidad de nuestros clientes.",
+		"quote": "Nuestra empresa fue fundada en el año 2010. Con el fin de poder atraer y concebir un buen servicio de viajes a través de plataformas digitales. Disfrutando toda esta accesibilidad para el gran Mendoza y conocer sus mejores atracciones turísticas y paisajes conocidos mundialmente.",
+		"author": "Javier Argañaraz (Gerente y Fundador)"
+	},
 
-    "services": {
-        "services-title": "Nuestros servicios de transporte",
-        "services-text-btn": "Reserve su viaje",
-        "first-card-title": "Servicio de viajes turísticos",
-        "first-card-body": "Transporte privado turístico para que conozcas los lugares mas bellos de Mendoza.",
-        "second-card-title": "Transporte aeropuerto",
-        "second-card-body": "Transporte privado desde el aeropuerto hacia donde tu desees.",
-        "third-card-title": "Transporte urbano - Remis",
-        "third-card-body": "Servicio de transporte privado urbano por Mendoza."
-    },
+	"services": {
+		"services-title": "Nuestros servicios de transporte",
+		"services-text-btn": "Reserve su viaje",
+		"first-card-title": "Servicio de viajes turísticos",
+		"first-card-body": "Transporte privado turístico para que conozcas los lugares mas bellos de Mendoza.",
+		"second-card-title": "Transporte aeropuerto",
+		"second-card-body": "Transporte privado desde el aeropuerto hacia donde tu desees.",
+		"third-card-title": "Transporte urbano - Remis",
+		"third-card-body": "Servicio de transporte privado urbano por Mendoza."
+	},
 
-    "opinions": {
-        "opinion-title": "Opiniones de nuestros clientes",
-        "opinion-description": "En Online Transfers nos tomamos muy en serio nuestro trabajo y queremos brindarle el mejor servicio."
-    },
+	"opinions": {
+		"opinion-title": "Opiniones de nuestros clientes",
+		"opinion-description": "En Online Transfers nos tomamos muy en serio nuestro trabajo y queremos brindarle el mejor servicio."
+	},
 
-    "contact": {
-        "contact-title": "Contacto",
-        "contact-description": "Contáctanos y reserva tu viaje. <br/> Haga click o interactúe con la opción y será redirigido.",
-        "whatsapp": "<strong>Inicie un chat de WhatsApp</strong>"
-    },
+	"contact": {
+		"contact-title": "Contacto",
+		"contact-description": "Contáctanos y reserva tu viaje. <br/> Haga click o interactúe con la opción y será redirigido.",
+		"whatsapp": "<strong>Inicie un chat de WhatsApp</strong>",
+		"facebook": "<strong>Encontranos en Facebook</strong>",
+		"instagram": "<strong>Encontranos en Instagram</strong>"
+	},
 
-    "findUs": {
-        "find-title": "Encuéntranos"
-    },
+	"payments": {
+		"pay-title": "Aceptamos todos los medios de pago"
+	},
 
-    "footer": {
-        "address": "<strong>Dirección: </strong> Soler 348, M5519, Mendoza Argentina",
-        "hours": "<strong>Horario de atención: </strong> Lun-Dom (24hs)",
-        "politic": "Política de privacidad"
-    },
+	"findUs": {
+		"find-title": "Encuéntranos"
+	},
 
-    "alert": {
-        "title-alert": "Cotización",
-        "body-alert": "Por favor, para recibir una cotización comuníquese por WhatsApp o llame a los números colocados en la sección de contacto."
-    }
+	"footer": {
+		"address": "<strong>Dirección: </strong> Soler 348, M5519, Mendoza Argentina",
+		"hours": "<strong>Horario de atención: </strong> Lun-Dom (24hs)",
+		"politic": "Política de privacidad"
+	},
+
+	"alert": {
+		"title-alert": "Cotización",
+		"body-alert": "Por favor, para recibir una cotización comuníquese por WhatsApp o llame a los números colocados en la sección de contacto."
+	}
 }

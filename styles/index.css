@@ -128,15 +128,6 @@ h1 {
   animation: pulse 2s 2 alternate-reverse;
 }
 
-@-webkit-keyframes pulse {
-  0% {
-    color: white;
-  }
-  100% {
-    color: #ffa420;
-  }
-}
-
 @keyframes pulse {
   0% {
     color: white;
@@ -212,8 +203,7 @@ h1 {
 }
 
 .hours {
-  -webkit-animation: pulse 1s infinite alternate;
-          animation: pulse 1s infinite alternate;
+  animation: pulse 1s infinite alternate;
 }
 
 @keyframes pulse {
@@ -425,4 +415,22 @@ h1 {
   position: absolute;
   top: 0px;
   right: 0px;
+}
+
+.widget-instagram {
+  width: 100%;
+}
+
+.css-6kluu6 {
+  display: none !important;
+  opacity: 0;
+}
+
+.payments {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
 }/*# sourceMappingURL=index.css.map */

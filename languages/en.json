@@ -31,7 +31,13 @@
 	"contact": {
 		"contact-title": "Contact us",
 		"contact-description": "Contact us and reserve your travel. <br/> When you do click will be redirected.",
-		"whatsapp": "<strong>Start chat in WhatsApp</strong>"
+		"whatsapp": "<strong>Start chat in WhatsApp</strong>",
+		"facebook": "<strong>Find us at Facebook</strong>",
+		"instagram": "<strong>Find us at Instagram</strong>"
+	},
+
+	"payments": {
+		"pay-title": "We accept all payment methods"
 	},
 
 	"findUs": {

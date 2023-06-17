@@ -31,7 +31,13 @@
 	"contact": {
 		"contact-title": "Contato",
 		"contact-description": "Entre em contato conosco e reserve sua viagem. <br/> Clique ou interaja com a opção e você será redirecionado.",
-		"whatsapp": "<strong>Iniciar um bate-papo no WhatsApp</strong>"
+		"whatsapp": "<strong>Iniciar um bate-papo no WhatsApp</strong>",
+		"facebook": "<strong>Pode encontrar-nos em Facebook</strong>",
+		"instagram": "<strong>Pode encontrar-nos em Instagram</strong>"
+	},
+
+	"payments": {
+		"pay-title": "Aceitamos todos os meios de pagamento"
 	},
 
 	"findUs": {
